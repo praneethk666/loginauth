@@ -23,7 +23,7 @@ class MyApp extends StatelessWidget {
       routes: {
         Welcome.x:(context)=>Welcome(),
         Mobile.y:(context)=>Mobile(),
-        Authie.z:(context)=>Authie(phone:"",codess: "",),
+        Authie.z:(context)=>Authie(phone:""),
         Selection.w:(context)=>Selection(),
       },
     );

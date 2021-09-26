@@ -7,8 +7,8 @@ import 'package:pinput/pin_put/pin_put.dart';
 class Authie extends StatefulWidget {
   static const String z ='Authie';
   final String phone;
-  final String codess;
-  Authie({required this.phone,required this.codess});
+ // final String codess;
+  Authie({required this.phone});
 
 
   @override
@@ -83,7 +83,7 @@ class _AuthieState extends State<Authie> {
                     },
                     child: Padding(
                       padding: const EdgeInsets.all(8.0),
-                      child: Text("Code is sent to +91 ${widget.phone}",style:GoogleFonts.roboto(textStyle:TextStyle(color: Color(0xff6A6C7B),fontSize: 14))),
+                      child: Text("Code is sent to  ${widget.phone}",style:GoogleFonts.roboto(textStyle:TextStyle(color: Color(0xff6A6C7B),fontSize: 14))),
                     ),
                   ),
                 ),

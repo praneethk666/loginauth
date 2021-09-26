@@ -69,7 +69,7 @@ class _MobileState extends State<Mobile> {
 
                           Navigator.push(
                               context,
-                              MaterialPageRoute(builder: (context) =>  Authie(phone: "+91"+pController.text,codess:smsCode)));
+                              MaterialPageRoute(builder: (context) =>  Authie(phone: "+91"+pController.text)));
                         },
                         minWidth: 355,
                         height: 60,
