@@ -89,7 +89,7 @@ class _AuthieState extends State<Authie> {
                 ),
               ),
               //SizedBox(height: ,),
-              Padding(padding: EdgeInsets.all(40),
+              Padding(padding: EdgeInsets.all(25),
                   child: PinPut(
                     fieldsCount: 6,
                     textStyle: TextStyle(fontSize: 19,color:Colors.black),
@@ -120,7 +120,6 @@ class _AuthieState extends State<Authie> {
                     }
                   ),
               ),
-              SizedBox(height: 15),
 
               Padding(padding: EdgeInsets.only(left: 24,right: 24),
                   child :Material(

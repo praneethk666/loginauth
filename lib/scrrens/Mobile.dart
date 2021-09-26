@@ -33,9 +33,9 @@ class _MobileState extends State<Mobile> {
               children: [
                 SizedBox(height: 130),
                 Padding(
-                  padding: const EdgeInsets.all(8.0),
+                  padding: const EdgeInsets.all(3),
                   child: Center(
-                    child: Text("Please enter your mobile number",
+                    child: Text("Please enter your mobile-number",
                     style:GoogleFonts.roboto(textStyle:TextStyle(color: Colors.black,
                     fontSize: 16,fontWeight: FontWeight.w800),
                     ),

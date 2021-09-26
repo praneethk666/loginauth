@@ -28,11 +28,11 @@ class _WelcomeState extends State<Welcome> {
               ),
                   SizedBox(height: 25.0,),
                   Padding(
-                    padding: const EdgeInsets.all(10.0),
+                    padding: const EdgeInsets.all(8.0),
                     child: Center(
                       child: Text("Please Select your language",style: GoogleFonts.roboto(
                         fontWeight: FontWeight.w800,
-                        fontSize: 19,
+                        fontSize: 18,
                       ),)
                       ),
                   ),
